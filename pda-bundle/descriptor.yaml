@@ -24,9 +24,6 @@ components:
     - name: "connection-edit"
       code: "connection-edit"
     permissions: []
-    parameters: {}
-    securityLevel: LENIENT
-    connectionConfigNames: []
 
   widgets: []
 
