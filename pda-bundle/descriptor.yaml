@@ -27,3 +27,11 @@ components:
     parameters: {}
     securityLevel: LENIENT
     connectionConfigNames: []
+
+  widgets: []
+
+  pageModels: []
+
+  contentTypes: []
+
+  contentModels: []
