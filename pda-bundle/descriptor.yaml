@@ -25,7 +25,8 @@ components:
       code: "connection-edit"
     permissions: []
 
-  widgets: []
+  widgets:
+    - widgets/task-list.yaml
 
   pageModels: []
 

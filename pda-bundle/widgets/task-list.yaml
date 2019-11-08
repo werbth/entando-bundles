@@ -1,0 +1,7 @@
+version: entando.org/v1alpha1
+code: pda_task_list
+titles:
+  en: Process Driven Applications - Task List
+  it: Process Driven Applications - Task List
+group: free
+customUiPath: task-list.ftl
