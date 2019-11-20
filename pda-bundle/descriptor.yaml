@@ -24,6 +24,7 @@ components:
     - name: "connection-edit"
       code: "connection-edit"
     permissions: []
+    securityLevel: LENIENT
 
   widgets:
     - widgets/task-list.yaml
