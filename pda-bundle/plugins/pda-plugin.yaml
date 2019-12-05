@@ -1,0 +1,29 @@
+kind: "EntandoPlugin"
+apiVersion: "entando.org/v1alpha1"
+metadata:
+  name: "pda-plugin"
+spec:
+  image: "entando/entando-process-driven-plugin"
+  replicas: "1"
+  dbms: "postgresql"
+  roles:
+    - name: "task-list"
+      code: "task-list"
+    - name: "task-get"
+      code: "task-get"
+    - name: "connection-list"
+      code: "connection-list"
+    - name: "connection-get"
+      code: "connection-get"
+    - name: "connection-create"
+      code: "connection-create"
+    - name: "connection-delete"
+      code: "connection-delete"
+    - name: "connection-edit"
+      code: "connection-edit"
+  permissions: []
+  parameters: {}
+  ingressPath: "/pda"
+  healthCheckPath: "/actuator/health"
+  securityLevel: lenient
+  connectionConfigNames: []
