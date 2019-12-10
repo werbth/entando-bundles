@@ -21,6 +21,12 @@ spec:
       code: "connection-delete"
     - name: "connection-edit"
       code: "connection-edit"
+    - name: "process-definition-list"
+      code: "process-definition-list"
+    - name: "process-diagram"
+      code: "process-diagram"
+    - name: "group-list"
+      code: "group-list"
   permissions: []
   parameters: {}
   ingressPath: "/pda"
