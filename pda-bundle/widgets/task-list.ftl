@@ -5,4 +5,5 @@
  <script src="<@wp.resourceURL />pda/static/js/2.06ceb7fa.chunk.js"></script>
  <script src="<@wp.resourceURL />pda/static/js/main.f1748915.chunk.js"></script>
  <script src="<@wp.resourceURL />pda/static/js/runtime~main.9f66f565.js"></script>
-<task-list service-url="/pda" />
+<task-list service-url="/pda" page-code="${Request.reqCtx.getExtraParam('currentPage').code}"
+           frame-id="${Request.reqCtx.getExtraParam('currentFrame')}"/>
