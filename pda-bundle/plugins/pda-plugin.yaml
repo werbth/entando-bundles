@@ -9,6 +9,8 @@ spec:
   roles:
     - name: "task-list"
       code: "task-list"
+    - name: "task-list-columns"
+      code: "task-list-columns"
     - name: "task-get"
       code: "task-get"
     - name: "connection-list"
